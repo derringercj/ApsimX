@@ -260,7 +260,7 @@ namespace Models
         /// <summary>Gets the today.</summary>
         /// <value>The today.</value>
         [JsonIgnore]
-        public DateTime Today { get; private set; }
+        public DateTime Today { get; set; }
 
         /// <summary>
         /// Returns the current fraction of the overall simulation which has been completed
