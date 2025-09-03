@@ -138,9 +138,11 @@ namespace Models.Climate
             }
             set
             {
-                Simulations simulations = Structure.FindParent<Simulations>(recurse: true);
-                if (simulations != null)
+                if (Structure != null)
+                {
+                    Simulations simulations = Structure.FindParent<Simulations>(recurse: true);
                     this.constantsFile = PathUtilities.GetRelativePath(value, simulations.FileName);
+                }
                 else
                     this.constantsFile = value;
             }

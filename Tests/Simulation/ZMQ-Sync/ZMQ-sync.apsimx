@@ -21,8 +21,8 @@
       "Children": [
         {
           "$type": "Models.Clock, Models",
-          "Start": "1900-01-01T00:00:00",
-          "End": "1900-01-31T00:00:00",
+          "Start": "1980-01-01T00:00:00",
+          "End": "1995-12-31T00:00:00",
           "Name": "Clock",
           "ResourceName": null,
           "Children": [],
@@ -39,9 +39,9 @@
           "ReadOnly": false
         },
         {
-          "$type": "Models.Climate.Weather, Models",
+          "$type": "Models.Climate.SimpleWeather, Models",
           "ConstantsFile": null,
-          "FileName": "%root%/Examples/WeatherFiles/AU_Dalby.met",
+          "_fileName": "../../../../ApsimTestFiles/emerald.met",
           "ExcelWorkSheetName": null,
           "Name": "Weather",
           "ResourceName": null,
@@ -70,20 +70,17 @@
             {
               "$type": "Models.Report, Models",
               "VariableNames": [
-                "[Clock].",
                 "[Maize].Phenology.ThermalTime",
                 "[Maize].Phenology.CurrentStageName",
                 "[Maize].AboveGround.Wt",
                 "[Maize].AboveGround.N",
                 "[Maize].Grain.Total.Wt*10 as Yield",
-                "[Maize].Grain.Protein",
                 "[Maize].Grain.Size",
                 "[Maize].Grain.Number",
                 "[Maize].Grain.Total.Wt",
                 "[Maize].Grain.Total.N",
                 "[Maize].Total.Wt",
-                "[Maize].Structure.FinalLeafNumber",
-                "[Maize]."
+                "[Maize].Structure.FinalLeafNumber"
               ],
               "EventNames": [
                 "[Maize].Harvesting"
@@ -102,15 +99,15 @@
               "ASCSubOrder": "Black",
               "SoilType": "Clay",
               "LocalName": null,
-              "Site": "Norwin",
-              "NearestTown": "Norwin",
-              "Region": "Darling Downs and Granite Belt",
+              "Site": "Emerald",
+              "NearestTown": "Emerald",
+              "Region": "Central Highlands",
               "State": "Queensland",
               "Country": "Australia",
               "NaturalVegetation": "Qld. Bluegrass, possible Qld. Blue gum",
               "ApsoilNumber": "900",
-              "Latitude": -27.581836,
-              "Longitude": 151.320206,
+              "Latitude": -23.527291,
+              "Longitude": 148.164573,
               "LocationAccuracy": " +/- 20m",
               "YearOfSampling": null,
               "DataSource": "CSIRO Sustainable Ecosystems, Toowoomba; Characteriesd as part of the GRDC funded project\"Doing it better, doing it smarter, managing soil water in Australian agriculture' 2011",
@@ -874,7 +871,7 @@
                 "    {",
                 "        [Link] private Simulation simulation;",
                 "        [Link] private Clock Clock;",
-                "        [Link] private Weather Weather;",
+                "        [Link] private SimpleWeather Weather;",
                 "        [Link] private Fertiliser Fertiliser;",
                 "        [Link] private Plant Maize;",
                 "        [Link (ByName = true)] private HoldFunction FinalLeafNumber;",
@@ -1237,6 +1234,7 @@
                 "                    if (crop == null) { throw new Exception(\"Cant find a component called  '\" + cropName + \"' to harvest\"); }",
                 "                    crop.Harvest();",
                 "                    Console.WriteLine(\"Harvested a {0} crop\", cropName); ",
+                "                    crop.EndCrop();",
                 "                 } ",
                 "             } else if (cmd == \"applyIrrigation\") {",
                 "                 double irrigAmount = 0;",
