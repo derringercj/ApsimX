@@ -41,7 +41,7 @@
         {
           "$type": "Models.Climate.SimpleWeather, Models",
           "ConstantsFile": null,
-          "_fileName": "../../../../ApsimTestFiles/emerald.met",
+          "_fileName": "../../../../TestFiles/emerald.met",
           "ExcelWorkSheetName": null,
           "Name": "Weather",
           "ResourceName": null,
