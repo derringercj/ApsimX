@@ -39,10 +39,10 @@
           "ReadOnly": false
         },
         {
-          "$type": "Models.Climate.SimpleWeather, Models",
+          "$type": "Models.Climate.Weather, Models",
           "ConstantsFile": null,
-          "_fileName": "../../../../Gym_APSIM/Gym_APSIM/TestFiles/emerald.met",
-          "ExcelWorkSheetName": null,
+          "FileName": "/home/juice/programming/research/Gym_APSIM/Gym_APSIM/TestFiles/emerald.met",
+          "ExcelWorkSheetName": "",
           "Name": "Weather",
           "ResourceName": null,
           "Children": [],
@@ -871,7 +871,7 @@
                 "    {",
                 "        [Link] private Simulation simulation;",
                 "        [Link] private Clock Clock;",
-                "        [Link] private SimpleWeather Weather;",
+                "        [Link] private Weather Weather;",
                 "        [Link] private Fertiliser Fertiliser;",
                 "        [Link] private Plant Maize;",
                 "        [Link (ByName = true)] private HoldFunction FinalLeafNumber;",
