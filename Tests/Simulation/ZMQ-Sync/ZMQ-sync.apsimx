@@ -22,7 +22,7 @@
         {
           "$type": "Models.Clock, Models",
           "Start": "1980-01-01T00:00:00",
-          "End": "1995-12-31T00:00:00",
+          "End": "1990-12-31T00:00:00",
           "Name": "Clock",
           "ResourceName": null,
           "Children": [],
@@ -1152,11 +1152,11 @@
               "Parameters": [
                 {
                   "Key": "StartDate",
-                  "Value": "1-jan"
+                  "Value": "1-nov"
                 },
                 {
                   "Key": "EndDate",
-                  "Value": "30-jan"
+                  "Value": "30-dec"
                 },
                 {
                   "Key": "MinESW",
