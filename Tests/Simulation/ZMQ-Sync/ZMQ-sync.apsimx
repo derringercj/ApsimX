@@ -22,7 +22,7 @@
         {
           "$type": "Models.Clock, Models",
           "Start": "1980-01-01T00:00:00",
-          "End": "1990-12-31T00:00:00",
+          "End": "1990-01-01T00:00:00",
           "Name": "Clock",
           "ResourceName": null,
           "Children": [],
@@ -748,7 +748,15 @@
                     1.3
                   ],
                   "ESP": null,
-                  "CEC": null,
+                  "CEC": [
+                    11.135000000000002,
+                    11.135000000000002,
+                    11.1575,
+                    10.82,
+                    9.9425,
+                    9.110000000000001,
+                    9.110000000000001
+                  ],
                   "ECMetadata": [
                     "Unknown source or quality of data",
                     "Unknown source or quality of data",
@@ -767,7 +775,15 @@
                     "Unknown source or quality of data",
                     "Unknown source or quality of data"
                   ],
-                  "CECMetadata": null,
+                  "CECMetadata": [
+                    "Calculated",
+                    "Calculated",
+                    "Calculated",
+                    "Calculated",
+                    "Calculated",
+                    "Calculated",
+                    "Calculated"
+                  ],
                   "ESPMetadata": null,
                   "PHMetadata": [
                     "Unknown source or quality of data",
