@@ -1554,7 +1554,7 @@
                 "                    }",
                 "                 }",
                 "                 if (FertAmount > 0) {",
-                "                    Console.WriteLine(\"Applying Fertiliser, amt={0} \", FertAmount); ",
+                "                    Console.WriteLine(\"Fertilized {0}\", FertAmount); ",
                 "                    Fertiliser.Apply(amount: FertAmount, type: \"NO3N\" /* fixme */);",
                 "                 }",
                 "             } else if (cmd == \"sowCrop\") {",
