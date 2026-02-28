@@ -26,7 +26,7 @@
           "Name": "Clock",
           "ResourceName": null,
           "Children": [],
-          "Enabled": true,
+          "Enabled": false,
           "ReadOnly": false
         },
         {
@@ -35,7 +35,7 @@
           "Name": "SummaryFile",
           "ResourceName": null,
           "Children": [],
-          "Enabled": true,
+          "Enabled": false,
           "ReadOnly": false
         },
         {
@@ -46,7 +46,7 @@
           "Name": "Weather",
           "ResourceName": null,
           "Children": [],
-          "Enabled": true,
+          "Enabled": false,
           "ReadOnly": false
         },
         {
@@ -54,7 +54,7 @@
           "Name": "SoilArbitrator",
           "ResourceName": null,
           "Children": [],
-          "Enabled": true,
+          "Enabled": false,
           "ReadOnly": false
         },
         {
@@ -91,7 +91,7 @@
               "Name": "Report",
               "ResourceName": null,
               "Children": [],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             },
             {
@@ -356,7 +356,7 @@
                       "Name": "wheatSoil",
                       "ResourceName": null,
                       "Children": [],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     },
                     {
@@ -418,7 +418,7 @@
                       "Name": "SCRUMSoil",
                       "ResourceName": null,
                       "Children": [],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     },
                     {
@@ -480,7 +480,7 @@
                       "Name": "SorghumSoil",
                       "ResourceName": null,
                       "Children": [],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     },
                     {
@@ -542,7 +542,7 @@
                       "Name": "CottonSoil",
                       "ResourceName": null,
                       "Children": [],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     },
                     {
@@ -604,11 +604,11 @@
                       "Name": "maizeSoil",
                       "ResourceName": null,
                       "Children": [],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     }
                   ],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -650,7 +650,7 @@
                   "Name": "SoilWater",
                   "ResourceName": "WaterBalance",
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -716,7 +716,7 @@
                   "Name": "Organic",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -799,7 +799,7 @@
                   "Name": "Chemical",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -807,7 +807,7 @@
                   "Name": "Nutrient",
                   "ResourceName": "Nutrient",
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -831,7 +831,7 @@
                   "Name": "NO3",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -855,7 +855,7 @@
                   "Name": "NH4",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -891,7 +891,7 @@
                   "Name": "Urea",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -918,7 +918,7 @@
                   "Name": "Water",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -928,7 +928,7 @@
                   "Name": "CERESSoilTemperature",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -936,11 +936,11 @@
                   "Name": "Temperature",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 }
               ],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             },
             {
@@ -948,7 +948,7 @@
               "Name": "Fertiliser",
               "ResourceName": "Fertiliser",
               "Children": [],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             },
             {
@@ -956,7 +956,7 @@
               "Name": "Irrigation",
               "ResourceName": null,
               "Children": [],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             },
             {
@@ -972,7 +972,7 @@
               "Name": "SurfaceOrganicMatter",
               "ResourceName": "SurfaceOrganicMatter",
               "Children": [],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             },
             {
@@ -980,7 +980,7 @@
               "Name": "Maize",
               "ResourceName": "Maize",
               "Children": [],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             },
             {
@@ -996,7 +996,7 @@
               "Name": "MicroClimate",
               "ResourceName": "MicroClimate",
               "Children": [],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             },
             {
@@ -1113,7 +1113,7 @@
               "Name": "ZMQ-SowingRule",
               "ResourceName": null,
               "Children": [],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             },
             {
@@ -1207,7 +1207,7 @@
               "Name": "ZMQ-Manager",
               "ResourceName": null,
               "Children": [],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             },
             {
@@ -1545,15 +1545,15 @@
               "Name": "ZMQ-Synchroniser",
               "ResourceName": null,
               "Children": [],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             }
           ],
-          "Enabled": true,
+          "Enabled": false,
           "ReadOnly": false
         }
       ],
-      "Enabled": true,
+      "Enabled": false,
       "ReadOnly": false
     },
     {
@@ -17415,7 +17415,7 @@
             {
               "$type": "Models.Climate.Weather, Models",
               "ConstantsFile": null,
-              "FileName": "/home/juice/programming/research/Oats_and_Winter_wheat/Oats_Ma/qinghai.met",
+              "FileName": "/home/juice/programming/research/Gym_APSIM/Gym_APSIM/TestFiles/qinghai.met",
               "ExcelWorkSheetName": "",
               "Name": "Weather",
               "ResourceName": null,
@@ -17460,7 +17460,7 @@
                 {
                   "$type": "Models.Report, Models",
                   "VariableNames": [
-                    "[Clock].Today",
+                    "[Clock].Today.DayOfYear",
                     "[Oats].Phenology.Zadok.Stage",
                     "[Oats].Phenology.CurrentStageName",
                     "[Oats].AboveGround.Wt*10 as AGB",
@@ -20605,7 +20605,7 @@
                   "Name": "Fertilise at sowing",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -20649,7 +20649,7 @@
                   "Name": "Harvest",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -28244,10 +28244,8 @@
                     "        [Description(\"Crop\")]",
                     "        public IPlant Crop { get; set; }",
                     "",
-                    "        [Description(\"Start of sowing window (d-mmm)\")]",
-                    "        public string StartDate { get; set;}",
-                    "        [Description(\"End of sowing window (d-mmm)\")]",
-                    "        public string EndDate { get; set;}",
+                    "        [Description(\"Sowing date (d-mmm)\")]",
+                    "        public string SowDate { get; set; }",
                     "",
                     "        [Display(Type = DisplayType.CultivarName)]",
                     "        [Description(\"Cultivar to be sown\")]",
@@ -28276,9 +28274,9 @@
                     "        {",
                     "            // accumulatedRain.Update();",
                     "            ",
-                    "            if (DateUtilities.WithinDates(StartDate, Clock.Today, EndDate))",
+                    "            if (DateUtilities.WithinDates(SowDate, Clock.Today, SowDate))",
                     "            {",
-                    "               Oats.Sow(population:Population, cultivar:CultivarName, depth:SowingDepth, rowSpacing:RowSpacing);    ",
+                    "               Crop.Sow(population:Population, cultivar:CultivarName, depth:SowingDepth, rowSpacing:RowSpacing);    ",
                     "            }",
                     "        }",
                     "    }",
@@ -28290,12 +28288,8 @@
                       "Value": "[Oats]"
                     },
                     {
-                      "Key": "StartDate",
-                      "Value": "25-apr"
-                    },
-                    {
-                      "Key": "EndDate",
-                      "Value": "5-jun"
+                      "Key": "SowDate",
+                      "Value": "2-jun"
                     },
                     {
                       "Key": "CultivarName",
@@ -28358,6 +28352,9 @@
                     "        ",
                     "        [Description(\"Identifier\")]",
                     "        public string Identifier { get; set;}",
+                    "        ",
+                    "        private bool doTomorrow;",
+                    "        private double irrigAmount;",
                     "",
                     "     ",
                     "        [EventSubscribe(\"StartOfSimulation\")]",
@@ -28373,6 +28370,17 @@
                     "           connection.SendFrame(\"connect\");",
                     "           var msg = connection.ReceiveFrameString(); ",
                     "           if (msg != \"ok\") { throw new Exception(\"Expected ok\"); }",
+                    "        }",
+                    "        ",
+                    "        [EventSubscribe(\"DoManagement\")]",
+                    "        private void OnDoManagement(object sender, EventArgs e)",
+                    "        {   ",
+                    "            if (doTomorrow)  ",
+                    "                if (irrigAmount > 0) {",
+                    "                    Irrigation.Apply(amount:irrigAmount, willRunoff:true);",
+                    "                    Console.WriteLine(\"Irrigated {0} \", irrigAmount, \"mm\"); ",
+                    "                }",
+                    "            doTomorrow = false;",
                     "        }",
                     "        ",
                     "        [EventSubscribe(\"EndOfDay\")]",
@@ -28546,17 +28554,14 @@
                     "                    crop.EndCrop();",
                     "                 } ",
                     "             } else if (cmd == \"applyIrrigation\") {",
-                    "                 double irrigAmount = 0;",
+                    "                 irrigAmount = 0;",
                     "                 for (int i = 2; i < msg.FrameCount; i += 2 ) {",
                     "                    var vname = MessagePackSerializer.Deserialize<string>( msg[i].Buffer);",
                     "                    if ( vname == \"amount\" ) {",
                     "                        irrigAmount = MessagePackSerializer.Deserialize<double>( msg[i + 1].Buffer);",
                     "                    }",
                     "                 }",
-                    "                 if (irrigAmount > 0) {",
-                    "                    Irrigation.Apply(amount:irrigAmount, willRunoff:true);",
-                    "                    Console.WriteLine(\"Irrigated {0} \", irrigAmount, \"mm\"); ",
-                    "                 }",
+                    "                 doTomorrow = true;",
                     "                 ",
                     "             } else if (cmd == \"tillage\") {",
                     "                 string implementName = \"\";",
@@ -29174,7 +29179,7 @@
               "Name": "Clock",
               "ResourceName": null,
               "Children": [],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             },
             {
@@ -29183,7 +29188,7 @@
               "Name": "SummaryFile",
               "ResourceName": null,
               "Children": [],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             },
             {
@@ -29194,7 +29199,7 @@
               "Name": "Weather",
               "ResourceName": null,
               "Children": [],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             },
             {
@@ -29202,7 +29207,7 @@
               "Name": "Soil Arbitrator",
               "ResourceName": null,
               "Children": [],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             },
             {
@@ -29220,7 +29225,7 @@
                   "Name": "Fertiliser",
                   "ResourceName": "Fertiliser",
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -29236,7 +29241,7 @@
                   "Name": "SurfaceOrganicMatter",
                   "ResourceName": "SurfaceOrganicMatter",
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -29252,7 +29257,7 @@
                   "Name": "MicroClimate",
                   "ResourceName": "MicroClimate",
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -29260,7 +29265,7 @@
                   "Name": "Maize",
                   "ResourceName": "Maize",
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -29268,7 +29273,7 @@
                   "Name": "Irrigation",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -29523,7 +29528,7 @@
                   "Name": "FallTillage",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -29580,7 +29585,7 @@
                   "Name": "SpringTillage",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -29673,7 +29678,7 @@
                   "Name": "SWIMSetLowerBC",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -29704,7 +29709,7 @@
                   "Name": "Report_Harvest",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -30336,7 +30341,7 @@
                           "Name": "MaizeSoil",
                           "ResourceName": null,
                           "Children": [],
-                          "Enabled": true,
+                          "Enabled": false,
                           "ReadOnly": false
                         },
                         {
@@ -30476,11 +30481,11 @@
                           "Name": "SoybeanSoil",
                           "ResourceName": null,
                           "Children": [],
-                          "Enabled": true,
+                          "Enabled": false,
                           "ReadOnly": false
                         }
                       ],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     },
                     {
@@ -30666,7 +30671,7 @@
                       "Name": "Organic",
                       "ResourceName": null,
                       "Children": [],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     },
                     {
@@ -30748,7 +30753,7 @@
                       "Name": "Chemical",
                       "ResourceName": null,
                       "Children": [],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     },
                     {
@@ -30801,7 +30806,7 @@
                       "Name": "Water",
                       "ResourceName": null,
                       "Children": [],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     },
                     {
@@ -30809,7 +30814,7 @@
                       "Name": "Nutrient",
                       "ResourceName": "Nutrient",
                       "Children": [],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     },
                     {
@@ -30913,7 +30918,7 @@
                       "Name": "NO3",
                       "ResourceName": null,
                       "Children": [],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     },
                     {
@@ -31017,7 +31022,7 @@
                       "Name": "NH4",
                       "ResourceName": null,
                       "Children": [],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     },
                     {
@@ -31121,7 +31126,7 @@
                       "Name": "Urea",
                       "ResourceName": null,
                       "Children": [],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     },
                     {
@@ -31153,7 +31158,7 @@
                       "Name": "Swim",
                       "ResourceName": null,
                       "Children": [],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     },
                     {
@@ -31205,11 +31210,11 @@
                       "Name": "SoilTemperature",
                       "ResourceName": null,
                       "Children": [],
-                      "Enabled": true,
+                      "Enabled": false,
                       "ReadOnly": false
                     }
                   ],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -31546,7 +31551,7 @@
                   "Name": "Synchroniser",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -31650,7 +31655,7 @@
                   "Name": "ZMQ-SowingRule",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 },
                 {
@@ -31746,19 +31751,19 @@
                   "Name": "Manager",
                   "ResourceName": null,
                   "Children": [],
-                  "Enabled": true,
+                  "Enabled": false,
                   "ReadOnly": false
                 }
               ],
-              "Enabled": true,
+              "Enabled": false,
               "ReadOnly": false
             }
           ],
-          "Enabled": true,
+          "Enabled": false,
           "ReadOnly": false
         }
       ],
-      "Enabled": true,
+      "Enabled": false,
       "ReadOnly": false
     }
   ],
