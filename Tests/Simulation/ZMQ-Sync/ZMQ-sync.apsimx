@@ -17415,7 +17415,7 @@
             {
               "$type": "Models.Climate.Weather, Models",
               "ConstantsFile": null,
-              "FileName": "/home/juice/programming/research/Gym_APSIM/Gym_APSIM/TestFiles/qinghai.met",
+              "FileName": "/home/juice/programming/research/Gym_APSIM/Gym_APSIM/SampleWeatherFiles/qinghai.met",
               "ExcelWorkSheetName": "",
               "Name": "Weather",
               "ResourceName": null,
